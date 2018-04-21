@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app>
     <head>
         <title>AngularJS Learn</title>
         <link href="content/css/styles.css" rel="stylesheet" type="text/css" />
         <script src="app/lib/angular.min.js"></script>
     </head>
-    <body>  
+    <body>
+        <input type="text" ng-model="Fruit_name" placeholder="Enter your fav fruit">
+        <p>Your fav. fruit: {{ Fruit_name }}</p>  
     </body>
 </html>
